@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ <style>
+          .body{
+  background-image: url('img1.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: 1250pt;
+}
+.bg
+{
+  background-color: rgb(0, 214, 46);
+  color:#fff;
+
+}
+hr {
+    display: block;
+    unicode-bidi: isolate;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    overflow: hidden;
+    border-style: inset;
+    border-width: 1px;
+}
+hr.style9 {
+    border-top: 0px dashed #8c8b8b;
+    border-bottom: 2px dashed #fff;
+}
+.tab {
+        tab-size: 5;
+    }
+
+.c {
+  text-align: right;
+}
+.h6
+{
+   color:#fff;
+}
+#nname {
+    padding: 5px;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    background: transparent;
+    -webkit-appearance: none;
+}
+input:focus {
+outline: none;
+}
+h1{
+  font: size 25px;
+  color: #fff;
+  text-align:center;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+select,
+input,
+textarea {
+-webkit-appearance: none;
+-webkit-border-radius:0; 
+border-radius:0; 
+}
+
+#content img {
+  float: right;
+}
+p{
+  font-family:Brush Script MT;
+  color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 45px;
+    font-style:thin;
+}
+#rcorners {
+  border-radius: 8px;
+  border: 1px solid #eef1e9;
+  padding: 0; 
+  width: 165px;
+  height: 35px; 
+  text-align:center;
+ color:rgb(37, 204, 37); 
+  font-size: 22px;
+  background-color: #fff;
+  max-width: 500px;
+  margin:auto;
+  bottom:auto;
+}
+.grid-container {
+    position: absolute;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto;
+    grid-gap:40px;
+    opacity: 0.3;
+    padding: 10px;
+    width: 80%;
+    margin-left: 130px;
+  }
+  .grid-container > div {
+    background-color: rgb(145, 218, 252);
+    text-align: center;
+    padding: 1125px 0;
+    
+  }
+  
+#leftbox {
+                float:left; 
+                background:#2eb82e;
+                width:25%;
+                height:90px;
+                text-align: center;
+                padding: -3pc;
+                color: #fff;
+                font-size: 20px;
+                border-left: 6px solid green;
+                padding-bottom: 0px;  
+              }
+             .vl {
+               border-right: 2px solid #fff ;
+
+            }
+            #middlebox{
+                float:left; 
+                background:rgb(48, 190, 60);
+                width: 183px;
+                height:90px;
+                color: #fff;
+                font-size: 17px;
+                
+                bottom: 0;
+            }
+            #rightbox{
+                float:left; 
+                background:rgb(48, 190, 60);
+                width: 120px;
+                height:90px;
+                color: #fff;
+                font-size: 17px;
+                
+                bottom: 0;
+            }
+            
+            #rbox{
+                float:left; 
+                background:rgb(48, 190, 60);
+                width: 120px;
+                height:90px;
+                color: #fff;
+                font-size: 17px;
+              
+                bottom: 0;
+            }
+            #nbox{
+                float:left; 
+                background:rgb(48, 190, 60);
+                width: 110px;
+                height:90px;
+                color: #fff;
+                font-size: 17px;
+              
+                bottom: 0;
+            }
+            #mbox{
+                float:left; 
+                background:rgb(48, 190, 60);
+                width: 358px;
+                height:90px;
+                color: #fff;
+                font-size: 17px;
+                
+                bottom: 0;
+            }
+            
+            #last{
+                float:left; 
+                background:rgb(7, 7, 7);
+                width: 500px;
+                height:400px;
+                color: rgb(252, 250, 250);
+                font-size: 17px;
+              
+                bottom: 0;
+            }
+            #last1{
+                float:left; 
+                background:rgb(7, 7, 7);
+                width: 478px;
+                height:400px;
+                color: rgb(252, 250, 250);
+                font-size: 17px;
+              
+                bottom: 0;
+            }
+            
+            #last2{
+                float:left; 
+                background:rgb(7, 7, 7);
+                width: 525px;
+                height:400px;
+                color: rgb(252, 250, 250);
+                font-size: 17px;
+              
+                bottom: 0;
+            }
+            .g1{
+              color:#2eb82e;
+              font-size:25px;          
+            }
+                        .button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 173px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-size: 16px;
+  }
+
+  .button1 {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px 0px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-size: 16px;
+  
+  }
+.text {
+  background-color: #f6f8f6;
+  text-align:left;
+  color: rgb(10, 10, 10);
+  padding: 15px 110px;
+  font-size: 16px;
+  border:none ;
+  margin: 4px 2px;
+}
+.g2
+{
+  padding: 10.5px;
+  position: relative;
+  background-repeat:no-repeat ;
+  float:left;
+  margin-top:3px;
+  margin-bottom:2px ;  
+}
+#ib1{
+  text-align: left;
+  color:#000000;
+  font-size:14px ;
+}
+
+.g4
+{
+  padding: 10.5px;
+  position: relative;
+  background-repeat:no-repeat ;
+  float:left; 
+  background-color: #fff; 
+  height: 230px ;
+  color:#2eb82e;
+  font-size:larger;
+  text-align: left;
+  width: 807px; ;
+  margin-top:40px;
+  margin-bottom:2px ; 
+}
+.g3
+{
+  grid-column:3/4 ;
+  background-image: linear-gradient(url(img11.jpg));
+}
+.x
+{
+  grid-column:1/span2 ;
+  
+}
+
+.d {
+  background-color: white;
+  width: 1210px;
+  border: 3px solid #2eb82e;
+  padding: 0px;
+  margin: 140px;
+  height:250px;
+  position: relative;
+}
+h5
+{
+ color:black;
+font-size:12px;
+}
+.f{
+  color:#2eb82e;
+  font-size:17px;
+}
+.button11 {
+  background-color: white;
+  border: 2px solid #2eb82e;
+  color: #2eb82e;
+  padding: 15px 43px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-size: 16px;
+  }
+.img{
+float:left;
+} 
+</style>
+</head>
+<body >
+
+  <div class="grid-container">
+    <div class="grid-item"></div>
+    <div class="grid-item"></div>
+    <div class="grid-item"></div>  
+    <div class="grid-item"></div>
+    <div class="grid-item"></div>
+    <div class="grid-item"></div>  
+    <div class="grid-item"></div>
+    <div class="grid-item"></div>
+    <div class="grid-item"></div> 
+    <div class="grid-item"></div>
+    <div class="grid-item"></div>
+    <div class="grid-item"></div>  
+  </div>
+  <div class="body">
+  <pre class="h6">
+
+          <img src="img7.jpg" alt="Chicago" width="25" height="25"> <img src="img4.jpg" alt="Chicago" width="25" height="25"> <img src="img3.jpg" alt="Chicago" width="25" height="25"> <img src="img2.jpg" alt="Chicago" width="25" height="25"> <img src="img5.jpg" alt="Chicago" width="25" height="25"> <img src="img6.jpg" alt="Chicago" width="25" height="25">                                                                                        <img src="img.jpg" alt="Chicago" width="25" height="25">info@educationpro.com   <img src="img9.jpg" alt="Chicago" width="25" height="25">+977 9813639131     Login/Register
+  </pre>
+    <hr class="style9"></hr>
+         <pre class="h6">
+
+          <img src="img10.jpg" alt="Chicago" width="310" height="50">                                                                   HOME    <select id="nname" name="ROOMS"><option value="ROOMS">ROOMS</option></select>    <select id="nname"name="GALLERY"><option value="GALLERY">GALLERY</option></select>     <select id="nname" name="EVENTS"><option value="EVENTS">EVENTS</option></select>     ABOUT    CONTACT</pre>
+<pre>
+
+
+
+
+
+
+<p>Short into about us </p>
+<h1>GET IN TOUCH WITH US</h1>
+</pre>
+
+<pre>                
+                                            <h2 id="rcorners">Home>Blogs</h2>
+</pre>
+</div>
+
+<div class="d x"><img class="img" src="img1.jpg" width="378" height="250 ">
+  <pre style=" color:green;font-size:17px;" >  HOME MAKE INGREDIENTS </pre>
+   <pre style="font-size:14px;">   <i class="fa fa-calendar" style="font-size:15px;"></i> 9/12/2018   <i class="fa fa-user" style="font-size:15px;"></i> admin    <i class="fa fa-comment"style="font-size:15px"></i> 5  command
+  
+    Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ves-
+    tibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Done eu libero sit amet
+    quam egestas semper.Aenean ultricies mi vitae est. Vestibulum tortor quam, feugiat vitae, ultricies
+    eget, tempor sit amet, ante. Done eu libero sit amet quam egestas semper. Aenean ultricies mi
+    </pre> 
+  <pre>   <input type="button" class="button11" value="READ MORE"></pre>
+  </div>
+  
+
+<pre>
+   <div class="g2 g3">
+   
+
+
+
+
+                  <img src="img11.jpg " width="378" height="250"  ></div>
+                  
+                       
+             
+  <div class="g4 g3">HOME MAKE INGREDIENTS 
+ <div id="ib1"><i class="fa fa-calendar" style="font-size:15px;"></i>  9/12/2018     <i class="fa fa-user" style="font-size:15px;"></i> admin   <i class="fa fa-comment"style="font-size:15px"></i>  5  command
+             
+  Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ves-
+  tibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Done eu libero sit amet
+  quam egestas semper. Aenean ultricies mi vitae est. Vestibulum tortor quam, feugiat vitae, ultricies
+  eget, tempor sit amet, ante. Done eu libero sit amet quam egestas semper. Aenean ultricies mi
+             
+  <input type="button1" class="button1" value="READ MORE">       
+             </div>
+                  </div>
+                  
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+</pre>    
+
+
+  <pre>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</pre>
+    <div id = "leftbox">
+      <pre>
+    
+    OPENING HOURS
+      </pre>
+    </div>  
+      <div id = "middlebox"><div class="vl"> <pre>          Sunday 
+        
+         6am-10pm</div>
+        </div>              
+      
+        <div id = "rightbox"><div class="vl"> <pre>   Monday 
+    
+  6am-10pm</div>
+         </div>   
+                    
+         <div id = "rbox"><div class="vl"> <pre>   Tuesday 
+    
+  6am-10pm</div>
+                 </div> 
+         <div id = "rbox"><div class="vl"> <pre> Wednesday 
+    
+  6am-10pm</div>
+                         </div> 
+        <div id = "nbox"><div class="vl"> <pre>   Thursday 
+    
+  6am-10pm</div>
+                                 </div> 
+         <div id = "nbox"><div class="vl"> <pre>   Friday
+    
+  6am-10pm</div>
+                                         </div>   
+          <div id = "mbox">                <pre>   Saturday
+    
+  6am-10pm</div>
+                                                                                 </div>                                   
+                                                                                </div>                                                                               
+ <div id="last">
+ <pre class="g1" >   
+          GREEN RESTAURANT PVT.LVD.</pre>
+          <pre>
+               <i class="fa fa-map-marker"style="font-size:20px;color:#2eb82e"></i>  Samakhusi road,gongabu,kathmandu
+               
+               <i class="fa fa-phone"style="font-size:20px;color:#2eb82e"></i>  +977 9840059834
+               
+               <i class="fa fa-envelope" style="font-size:20px;color:#2eb82e"></i> info@spyderslab.com
+ </pre> 
+ </div>       
+ <div id="last1">
+   <pre class="g1">
+    
+    FOLLOW US</pre>
+    <pre>
+      <i class="fa fa-facebook-official" style="font-size:20px;color:#2eb82e"></i> Facebook
+      
+      <i class="fa fa-instagram" style="font-size:20px;color:#2eb82e"></i> Instagram
+      
+      <i class="fa fa-youtube-play" style="font-size:20px;color:#2eb82e"></i> You tube
+            </pre>
+ </div> 
+ </div>                              
+ <div id="last2">                                 
+  <pre class="g1">              
+NEWSLETTER
+     </pre>
+     <pre>
+we send you latest offers and news at latest
+once a week.
+     </pre>     
+     <pre>  
+<input type="text"   class="text" value="Email address*">
+<input type="button" class="button" value="Subscribe">
+    </pre>          
+</body>       
+</html>
+ 
